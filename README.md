@@ -1,4 +1,4 @@
-# Welcome to Vancouver!
+# Welcome to Vancouver! My friend!
 
 ![alt text](https://github.com/UBC-GEOB472-Spring2020/immmor-lab1/blob/master/shot.png "shot")
 
