@@ -4,7 +4,7 @@
 
 
 Reflective analysis:
-This interactive web map is for my friend. He will come to Vancouver to visit me in this May. His major is also Geography. He always asks me to introduce my living environment. Because of this course, i could just use a interactive web map to introduce somme cool places to him. He will be surprised and love it. I believe so~ 
+This interactive web map is for my friend. He will come to Vancouver to visit me in this May. His major is also Geography. He always asks me to introduce my living environment. Because of this course, i could just use a interactive web map to introduce some cool places to him. He will be surprised and love it. I believe so~ 
 
 I only used one layer which is the UBC. I think it’s my most important place in Vancouver (I am here to study~), so i highlighted it. For the 3D terrain map with hypsometric tinting, I wanna show him Vancouver’s terrain in 3D. He loves terrain and new places’ terrain. The tour map is a slide show about my surrounding environment and some text to introduce, including UBC, Vancouver, Downtown Vancouver, Vancouver Airport,  Richmond Night Market and PNE. It basically achieve my expectations. For the tour map, i don’t actually want him to zoom in or zoom out. But he could play with the 3D terrain map to check the terrain details. One thing to improve my map is to highlight different regions when the map automatically zooming in, not be highlighted in default. 
 
