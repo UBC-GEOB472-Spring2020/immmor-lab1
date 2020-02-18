@@ -34,7 +34,18 @@
     .map-overlay p {
         margin: 0 0 10px;
     }
+  
+  .threed {
+        position: absolute;
+        width: 100px;
+        top: 450px;
+        left: 10px;
+        padding: 10px;
+        z-index: 1;
+    }
 </style>
+  
+<button id="myButton" class="threed" >Cypress Provincial Park 3D Terrain Map</button>
 
 <div id="map"></div>
 
@@ -52,12 +63,21 @@
 </div>
 
 <script>
+document.getElementById("myButton").onclick = function () {
+        location.href = "https://ubc-geob472-spring2020.github.io/immmor-lab1/index.html";
+    };
+  
+  
 	mapboxgl.accessToken = 'pk.eyJ1IjoiaW1tbW9yIiwiYSI6ImNrNmxhYTZvcDA5cTgzZHBkOThxMTl3N2IifQ.St9SZGWOIL04YeKFSuzYBw';
     var map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/immmor/ck6r3mn6r0f6s1jrqb82t0dgj',
       //mapbox://styles/mapbox/streets-v11
       //mapbox://styles/immmor/ck6qy8bsk0mq01irxcyfhidd3
+      //mapbox://styles/immmor/ck6ofpaje2z2p1io23pch2ak4
+      //mapbox://styles/immmor/ck6r3mn6r0f6s1jrqb82t0dgj
+      //mapbox://styles/immmor/ck6r3mn6r0f6s1jrqb82t0dgj
+      //mapbox://styles/immmor/ck6qqzy7e0c4k1imqetzzr3pv
         center: [-123.0824, 49.2501],
         maxZoom: 16,
         minZoom: 9,
@@ -74,7 +94,8 @@
             'description':
                 "The University of British Columbia is a public research university with campuses in Vancouver and Kelowna, British Columbia. Established in 1908, UBC is British Columbia's oldest university. The university has ranked among the top three universities in Canada.",
             'camera': {
-                center: [-123.2460, 49.2606],
+                //center: [-123.2176, 49.4057],
+              center: [-123.2460, 49.2606],
                 zoom: 13.1,
                 pitch: 50
             }
